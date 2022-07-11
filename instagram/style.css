@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.insta-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 50%;
+    height: 46rem;
+}
+
+.insta-login {
+    color: #ffffff;
+    padding: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center; 
+    min-height: 35rem;
+    width: 47%;
+    justify-content: space-around; 
+    flex-direction: column;
+    padding: 55px;
+}
+
+.insta-phone {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 33%;
+    padding: 47px;
+}
+
+.insta-phone img {
+    height: 42rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 85%;
+    padding: 0 30px;
+    border: 1px solid rgb(231, 228, 228);
+}
+
+.insta-logo {
+    height: 3.5rem;
+    padding: 43px;
+}
+
+.form__input {
+    font-size: 12px;
+    margin: 3px 5px;
+    width: 270px;
+    height: 35px;
+    background-color: #F8F8F8;
+    border: 1px solid rgb(231, 228, 228);
+    border-radius: 3px;
+}
+
+.enter {
+    background-color: #bbddf3;
+    color: white;
+    margin: 7px; 
+    padding: 8px;
+    border-radius: 4px;    
+    width: 257px;
+    height: 12px;
+    text-align: center;
+}
+
+.or {
+    color: rgb(164, 163, 163);
+    padding: 8px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+.facebook {
+    color: #5e7ab7;
+    font-weight:600;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.fa-facebook-square {
+    font-size: 17px;
+    color: #5e7ab7;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #1d3058;
+    font-family: sans-serif;
+    padding: 17px;
+}
+
+.group2 {
+    background-color: #ffffff;
+    width: 85%;
+    height: 60px;
+    padding: 0 30px;
+    border: 1px solid rgb(231, 228, 228);
+    position: relative;
+    margin-top: 10px;
+}
+
+.subscribe {
+    margin: 9px;
+    padding: 10px;
+    text-align: center;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    border-radius: 5px;
+    justify-content: center;
+   }
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1px;
+    margin-top: 20px;
+}
+
+.download-app {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.app-download:nth-child(1) {
+    background-image: url("./img/apple-button.png");
+}
+
+.app-download:nth-child(2) {
+    background-image: url("./img/googleplay-button.png");
+}
